@@ -1,0 +1,38 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco</title>
+    <link rel="shortcut icon" href="../favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/global_styles.css">
+    <link rel="stylesheet" href="../css/banco_styles.css">
+</head>
+<body>
+    <button id="volver-al-menu" class="navigation-button">Volver al Menú</button>
+
+    <div class="bank-container">
+        <h1 id="jugador">Cargando datos del jugador...</h1>
+        <h1 id="tituloDeuda">Gestión de Préstamos</h1>
+
+        <div class="form-group">
+            <label for="cantidad-prestamo">Cantidad a pedir:</label>
+            <input type="number" id="cantidad-prestamo" class="bank-input" placeholder="Ingrese cantidad" min="0">
+        </div>
+
+        <div class="form-group">
+            <label for="interes-info">Interés (10%):</label>
+            <p id="devolver">Total a devolver: 0F</p>
+        </div>
+
+        <button class="bank-button tooltip" id="pedir-prestamo">Pedir Préstamo
+           <span class="tooltiptext">Ingresa una cantidad válida para solicitar el préstamo.</span>
+        </button>
+        <button class="bank-button" id="pagar-deuda" disabled>Pagar Deuda</button>
+        
+        <p id="resultado"></p> 
+    </div>
+
+    <script type="module" src="../js/game_scripts/banco_main.js"></script>
+</body>
+</html>
