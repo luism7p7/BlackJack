@@ -1,0 +1,93 @@
+/* Casino_v22/Casino_v2/Casino/public/css/global_styles.css */
+body {
+    margin: 0;
+    font-family: 'Lato', 'Arial', sans-serif;
+    box-sizing: border-box;
+    background: #121212 url('../images/background-texture.png') repeat;
+    color: #F0F0F0;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', 'Georgia', serif;
+    color: #F0F0F0;
+    margin-top: 0;
+    margin-bottom: 0.75em;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+
+.navigation-button {
+    position: fixed;
+    top: -70px;
+    left: -570px;
+    padding: 18px 35px;
+    font-size: 1.1em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: linear-gradient(145deg, #007A41, #005F30);
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3), 0 2px 5px rgba(0,109,61,0.2) inset;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    z-index: 1000;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.navigation-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: left 0.4s ease;
+}
+
+.navigation-button:hover::before {
+    left: 100%;
+}
+
+.navigation-button:hover {
+    background: linear-gradient(145deg, #008F4C, #006D3D);
+    color: #FFFFFF;
+    transform: translateY(-4px) scale(1.03);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35), 0 3px 7px rgba(0,109,61,0.25) inset;
+}
+
+.navigation-button:active {
+    transform: translateY(0px) scale(1);
+    background: linear-gradient(145deg, #005F30, #004F2C);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0,109,61,0.15) inset;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in-content {
+    animation: fadeIn 0.8s ease-out forwards;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 25px 20px;
+    margin-top: auto;
+    color: #888888;
+    font-size: 0.9em;
+}
