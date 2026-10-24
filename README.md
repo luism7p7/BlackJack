@@ -57,4 +57,4 @@ Luego cambia la dirección `SERVER_URL` en `Casino/public/js/modules/SocketClien
 
 ---
 
-Proyecto individual de **Luis Miguel Muñoz Rendón** · [Portafolio](https://luism7p7.github.io) · [LinkedIn](https://www.linkedin.com/in/luismiguelmu%C3%B1ozrendon)
+Proyecto en equipo · participación de **Luis Miguel Muñoz Rendón** · [Portafolio](https://luism7p7.github.io) · [LinkedIn](https://www.linkedin.com/in/luismiguelmu%C3%B1ozrendon)
