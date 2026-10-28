@@ -55,6 +55,15 @@ python Casino/server/server.py
 
 Luego cambia la dirección `SERVER_URL` en `Casino/public/js/modules/SocketClient.js` por la IP del computador donde corre el servidor.
 
+## Equipo
+
+Proyecto de clase hecho en equipo. Todos participamos en cada parte: el front-end en HTML, CSS y JavaScript, el servidor multijugador en Python y sus pruebas.
+
+| Integrante | Enlaces |
+| :-- | :-- |
+| **Luis Miguel Muñoz Rendón** | [GitHub](https://github.com/luism7p7) · [Portafolio](https://luism7p7.github.io) |
+| **Alexander Mejía Ospina** | [GitHub](https://github.com/AlexanderM-Code) · [Portafolio](https://alexanderm-code.github.io) |
+
 ---
 
 Proyecto en equipo · participación de **Luis Miguel Muñoz Rendón** · [Portafolio](https://luism7p7.github.io) · [LinkedIn](https://www.linkedin.com/in/luismiguelmu%C3%B1ozrendon)
