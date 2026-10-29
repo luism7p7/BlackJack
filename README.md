@@ -63,6 +63,7 @@ Proyecto de clase hecho en equipo. Todos participamos en cada parte: el front-en
 | :-- | :-- |
 | **Luis Miguel Muñoz Rendón** | [GitHub](https://github.com/luism7p7) · [Portafolio](https://luism7p7.github.io) |
 | **Alexander Mejía Ospina** | [GitHub](https://github.com/AlexanderM-Code) · [Portafolio](https://alexanderm-code.github.io) |
+| **Santiago Rodríguez** | [GitHub](https://github.com/santiago12R) |
 
 ---
 
